@@ -135,8 +135,10 @@
         justify-content: space-evenly;
         gap: 5px;
         .nav-left-items{
-            width: auto;
+            width: 100%;
             a{
+                display: flex;
+                justify-content: center ;
                 width: 100%;
             }
         }
@@ -205,7 +207,6 @@
 .anchorTag:hover{
     border: 2px solid rgb(4, 48, 248);
     border-radius: 10px;
-    border-spacing: 0cap;
 }
 
 .logoHolder{
