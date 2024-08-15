@@ -132,10 +132,10 @@
     }
     .nav-left{
         width: 70%;
-        justify-content: center;
+        justify-content: space-evenly;
         gap: 5px;
         .nav-left-items{
-            width: 100%;
+            width: auto;
             a{
                 width: 100%;
             }
@@ -1054,9 +1054,6 @@ h1{
         display: flex;
         flex-direction: column;
     }
-    .drop-container ul li:hover{
-        cursor: pointer;
-    }
     .drop-container ul li div{
         display: flex;
         justify-content: space-between;
@@ -1079,4 +1076,3 @@ h1{
     }
     
 }
-
